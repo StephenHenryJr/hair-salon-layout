@@ -1,0 +1,386 @@
+/********************** BASE STYLES **********************/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: serif;
+}
+
+body {
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    padding: 0.75rem;
+    padding: 1.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/********************** HEADER STYLES **********************/
+header {
+    padding: 1rem 8rem;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 8rem;
+    height: auto;
+}
+
+header a {
+    color: black;
+}
+
+nav ul li {
+    margin: 0 3rem;
+}
+
+/********************** HERO SECTION STYLES **********************/
+.hero {
+    min-height: 90vh;
+    position: relative;
+    background-image: url("images/img-here-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.add-container {
+    position: absolute;
+    top: 15rem;
+    left: 15rem;
+}
+
+.welcome-add {
+    margin-bottom: 7rem;
+    color: white;
+}
+
+.welcome-add h1 {
+    font-size: 8rem;
+    letter-spacing: 0.5rem;
+}
+
+.welcome-add p {
+    font-size: 1.25rem;
+    letter-spacing: 0.1rem;
+    margin: 1.5rem 0;
+}
+
+.welcome-add button {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+}
+
+.discount-add {
+    display: inline-block;
+    background-color: black;
+    padding: 5rem 2rem;
+    border-radius: 5px;
+}
+
+.discount-add p {
+    font-size: 1rem;
+    color: white;
+}
+
+.discount-add h4 {
+    font-size: 1.5rem;
+    color: white;
+    margin: 2rem 0;
+    line-height: 3rem;
+}
+
+.discount-add h4 span {
+    font-size: 3rem;
+}
+
+.discount-add button {
+    background-color: white;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+}
+
+.discount-add a {
+    color: black;
+}
+
+.next-buttons {
+    position: absolute;
+    font-size: 3rem;
+    bottom: 10rem;
+    right: 15rem;
+}
+
+
+.hours {
+    position: absolute;
+    right: 2rem;
+    top: 15rem;
+    font-size: 1.5rem;
+    writing-mode: vertical-lr;
+    color: white;
+}
+
+/********************** SERVICES SECTION STYLES **********************/
+.services-section {
+    padding: 5rem 0;
+    min-height: 500px;
+}
+
+.service {
+    text-align: center;
+    width: 25%;
+}
+
+.service h4 {
+    margin: 2rem 0;
+    letter-spacing: 0.25rem;
+}
+
+.service p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+/********************** VIDEO SECTION STYLES **********************/
+.video-section {
+    background-color: rgb(240, 240, 240);
+    padding: 5rem 0;
+    min-height: 500px;
+}
+
+.left,
+.right {
+    height: 350px;
+    width: 600px;
+    /* background-color: white; */
+}
+
+.right .play-button {
+    background-image: url(images/play.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 600px;
+    position: absolute;
+}
+
+.right img {
+    height: 350px;
+    width: 600px;
+    object-fit: cover;
+}
+
+.left h3 {
+    font-size: 4rem;
+    line-height: 5rem;
+}
+
+.left p {
+    line-height: 3rem;
+}
+
+.left button {
+    width: 25%;
+    background-color: black;
+    color: white;
+}
+
+/********************** STYLISTS SECTION STYLES **********************/
+.stylists-section {
+    padding: 5rem 0;
+    min-height: 700px;
+}
+
+.stylist {
+    position: relative;
+    height: 500px;
+    width: 350px;
+    background-color: rgb(228, 228, 228);
+}
+
+.stylist img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.stylist-name {
+    position: absolute;
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stylist-name h4 {
+    font-size: 1.5rem;
+}
+
+.stylist-name span {
+    font-size: 1rem;
+}
+
+
+/********************** BANNER SECTION STYLES **********************/
+.banner-section {
+    padding: 5rem 0;
+    min-height: 500px;
+}
+
+.banner-section .container {
+    background: url(images/img05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 426px;
+}
+
+.banner-add {
+    display: inline-block;
+    padding: 5rem 2rem;
+    border-radius: 5px;
+    margin-left: 10rem;
+}
+
+.banner-add p {
+    font-size: 2rem;
+}
+
+.banner-add h4 {
+    font-size: 3rem;
+    margin: 2rem 0;
+    line-height: 5rem;
+    letter-spacing: 0.5rem;
+}
+
+.banner-add h4 span {
+    font-size: 5rem;
+}
+
+.banner-add button {
+    background-color: black;
+    font-size: 1.5rem;
+    padding: 2rem 3rem;
+    border-radius: 3px;
+}
+
+/********************** LOOK-BOOK SECTION STYLES **********************/
+.look-book-section {
+    padding: 5rem 0;
+    /* height: 100vh; */
+}
+
+.look-book-section .container {
+    text-align: center;
+    min-height: 100%;
+}
+
+.grid-container {
+    margin: 5rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    /* justify-items: stretch; */
+    grid-template-areas:
+        "pic1 pic3 pic5"
+        "pic2 pic3 pic6"
+        "pic2 pic4 pic6";
+}
+
+.pic2 {
+    grid-area: pic2;
+    /* border: 1px solid black; */
+}
+
+.pic1 {
+    grid-area: pic1;
+    /* border: 1px solid black; */
+}
+
+.pic3 {
+    grid-area: pic3;
+    /* border: 1px solid black; */
+}
+
+.pic4 {
+    grid-area: pic4;
+    position: relative;
+    /* border: 1px solid black; */
+}
+
+.pic5 {
+    grid-area: pic5;
+    /* border: 1px solid black; */
+}
+
+.pic6 {
+    grid-area: pic6;
+    /* border: 1px solid black; */
+}
+
+.grid-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-overlay {
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    justify-content: center;
+}
+
+.img-overlay i {
+    color: white;
+    font-size: 10rem;
+}
